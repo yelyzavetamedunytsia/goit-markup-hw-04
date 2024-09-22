@@ -153,8 +153,13 @@ position: relative;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.nav-link {
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .nav-link.studio {
     position: relative;
+    color: #404BBF;
 }
 
 .nav-link.studio::after {
@@ -315,6 +320,7 @@ border-radius: 2px;
    height: 100%;
    background-color: #4D5AE5;
    border-radius: 50%;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
    }
 
    
@@ -548,6 +554,7 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     height: 100%;
     background-color: #4D5AE5;
     border-radius: 50%;
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .second-links:hover,
@@ -560,7 +567,6 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .list-links {
     width: 40px;
     height: 40px;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .text-footer {
